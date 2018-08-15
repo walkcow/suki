@@ -4,7 +4,7 @@ export function compute () {
   let y = date.getFullYear()
   let m = date.getMonth()
   let d = date.getDate()
-  if (y === 2018 && m === 7 && d === 16) {
+  if (y === 2018 && m === 7 && d === 15) {
     return 23
   }
   return false
