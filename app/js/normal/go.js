@@ -19,7 +19,7 @@ function go () {
     .type('/**', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .type('今天你猪猪教你写代码呀', '<span class="note">')
+    .type('111今天你猪猪教你写代码呀', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .wait(10)
