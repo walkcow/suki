@@ -1,2 +1,2 @@
-
-*.io
+node_modules/
+.vscode/
