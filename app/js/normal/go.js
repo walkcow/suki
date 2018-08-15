@@ -4,7 +4,7 @@ require('@css/normal/code.css')
 require('@css/normal/cursor.css')
 require('@css/normal/normal.css')
 // 配置在一起的日子
-const startTime = '2017/07/10'
+const startTime = '2018/02/11'
 // preload
 document.getElementById('birthday').remove()
 let s1 = require('@img/i-miss-u.png')
@@ -19,7 +19,7 @@ function go () {
     .type('/**', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .type('今天wood先生教你写代码呀', '<span class="note">')
+    .type('今天你猪猪教你写代码呀', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .wait(10)
@@ -61,15 +61,15 @@ function go () {
     .type("'wood'", '<span class="green">')
     .wait(15)
     .del(6)
-    .type("'洪榕森'", '<span class="green">')
+    .type("'曾阿牛", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
-    // 珊珊
+    // 琪琪
     .type('0000', '<span class="blank">')
     .type('girl', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'黄珊珊'", '<span class="green">')
+    .type("'我家琪琪'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     // time
@@ -269,7 +269,7 @@ function stars () {
   let comment = document.createElement('div')
   comment.className = 'comment'
   comment.style.bottom = 80 + comentsLength * 55 + 'px'
-  comment.innerHTML = '我想你了'
+  comment.innerHTML = '七夕快乐 我想你了'
   document.body.appendChild(comment)
 
   document.body.appendChild(startsContainer)
